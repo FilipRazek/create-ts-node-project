@@ -1,0 +1,12 @@
+{
+  "extends": "./tsconfig.json",
+  "exclude": [
+    "node_modules",
+    "local_output",
+    "build",
+    "test_output",
+    "jest.config.ts",
+    "jest.setup.ts",
+    "**/*.spec.ts"
+  ]
+}

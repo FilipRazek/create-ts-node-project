@@ -1,0 +1,10 @@
+node_modules/
+local_output/
+test_output/
+.github/
+
+*.ts
+.gitignore
+.eslintrc.json
+tsconfig.json
+tsconfig.build.json

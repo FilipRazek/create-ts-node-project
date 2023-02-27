@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "target": "ES2017",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "outDir": "build"
+  },
+  "exclude": ["node_modules", "local_output/", "build", "test_output/**/*"],
+  "ts-node": {
+    "esm": true
+  }
+}

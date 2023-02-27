@@ -1,0 +1,30 @@
+{
+  "name": "create-ts-node-project",
+  "version": "1.2.0",
+  "description": "A lightweight util to quickly bootstrap ts-node projects",
+  "main": "cli.ts",
+  "type": "module",
+  "bin": "./build/cli.js",
+  "scripts": {
+    "start": "ts-node cli.ts local_output",
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest .",
+    "lint": "eslint ."
+  },
+  "author": {
+    "name": "Filip Razek",
+    "url": "https://github.com/FilipRazek"
+  },
+  "license": "ISC",
+  "homepage": "https://github.com/FilipRazek/create-ts-node-project",
+  "devDependencies": {
+    "@types/jest": "^29.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "jest": "^29.4.3",
+    "ts-jest": "^29.0.5"
+  },
+  "dependencies": {
+    "git-init": "^1.0.0",
+    "ts-node": "^10.9.1"
+  }
+}
