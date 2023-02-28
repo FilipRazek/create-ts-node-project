@@ -1,6 +1,6 @@
 {
   "name": "create-ts-node-project",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "A lightweight util to quickly bootstrap ts-node projects",
   "main": "cli.ts",
   "type": "module",

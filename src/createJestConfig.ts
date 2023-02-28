@@ -7,7 +7,7 @@ export const JEST_CONFIG_CODE = `export default {
   testRegex: "\\.(test|spec)\\.ts$",
   testPathIgnorePatterns: ["node_modules"],
   moduleNameMapper: {
-    "(.+)\\.js": "$1",
+    "(.+)\\.js": ["$1.js", "$1.ts"],
   },
 };
 `;
