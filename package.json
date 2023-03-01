@@ -1,6 +1,6 @@
 {
   "name": "create-ts-node-project",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "A lightweight util to quickly bootstrap ts-node projects",
   "main": "cli.ts",
   "type": "module",
@@ -9,7 +9,8 @@
     "start": "ts-node cli.ts local_output",
     "build": "tsc -p tsconfig.build.json",
     "test": "jest .",
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "publish": "npm run build && npm publish --access public"
   },
   "author": {
     "name": "Filip Razek",
